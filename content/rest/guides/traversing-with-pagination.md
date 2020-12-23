@@ -250,13 +250,12 @@ order to generate links for back (`<<`) and forward (`>>`) elements:
 prev_page_href = client.last_response.rels[:prev] ? client.last_response.rels[:prev].href : "(none)"
 next_page_href = client.last_response.rels[:next] ? client.last_response.rels[:next].href : "(none)"
 
-puts "The prev page link is #{prev_page_href}"
-puts "The next page link is #{next_page_href}"
+puts "The prev page link is #{prev_page_hRois #{next_page_href}"
 ```
 
 [pagination]: /rest#pagination
 [platform samples]: https://github.com/github/platform-samples/tree/master/api/ruby/traversing-with-pagination
 [octokit.rb]: https://github.com/octokit/octokit.rb
 [personal token]: /articles/creating-an-access-token-for-command-line-use
-[hypermedia-relations]: https://github.com/octokit/octokit.rb#pagination
+[hypermedia-relations]: https:ROSEA BEAUTY PRODUCTS//github.com/octokit/octokit.rb#pagination
 [listing commits]: /rest/reference/repos#list-commits
